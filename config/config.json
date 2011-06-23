@@ -1,0 +1,8 @@
+/* 
+ * Config File,   
+ *
+ * @note Comments are perfectly safe and are stripped out so they don't interfere with the PHP json parser.
+ */
+{
+  "artifacts": ["manifolio"]
+}
