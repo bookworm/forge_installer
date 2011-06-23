@@ -1,3 +1,16 @@
+# Intro
+
+The Forge is a souped up replacement for the extension installations system supporting things like demo content and extras. Things like compatibility issues, perquisites, vulnerabilities are all handled seamlessly. The forge will seriously cut down on time spent maintaining your Joomla! site. The forge can pull from multiple forges allowing individual extension providers to run their own forge backends. You want just be locked into using Design BreakDown's forge. 
+
+The Forge comes in two flavors; as a Joomla! installation script and as a component.
+
+The installer is a super powered jumpstart system that allows you to install extensions during the installation phase of your Joomla! site. Component can be found [] 
+
+# TODOS.
+
+Release 1.6 version.
+
+# License Notes
 All code used in this project is open source under some OS license and all code is compatible with CPLv2. 
 That said, please make sure to check individual PHP files for licenses before using any code in your project.   
 
