@@ -1,6 +1,6 @@
 # Intro
 
-The Forge is a souped up replacement for the extension installations system supporting things like demo content and extras. Things like compatibility issues, perquisites, vulnerabilities are all handled seamlessly. The forge will seriously cut down on time spent maintaining your Joomla! site. The forge can pull from multiple forges allowing individual extension providers to run their own forge backends. You want just be locked into using Design BreakDown's forge. 
+The Forge is a souped up replacement for the extension installations system supporting things like demo content and extras. Things like compatibility issues, perquisites, vulnerabilities are all handled seamlessly. The forge will seriously cut down on time spent maintaining your Joomla! site. The forge can pull from multiple forges allowing individual extension providers to run their own forge backends. You wont be locked into using Design BreakDown's forge. 
 
 The Forge comes in two flavors; as a Joomla! installation script and as a component.
 
