@@ -4,7 +4,7 @@ The Forge is a souped up replacement for the extension installations system supp
 
 The Forge comes in two flavors; as a Joomla! installation script and as a component.
 
-The installer is a super powered jumpstart system that allows you to install extensions during the installation phase of your Joomla! site. Component can be found [] 
+The installer is a super powered jumpstart system that allows you to install extensions during the installation phase of your Joomla! site. Component can be found at [] 
 
 # TODOS.
 
