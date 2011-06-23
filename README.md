@@ -28,46 +28,47 @@ Although messy at points Akeeba contains good examples of how to solve many of t
 
 Thanks allot Nicholas! 
 
-Author: Nicholas K. Dionysopoulos
-Copyright: Copyright (C) 2009-2010 Nicholas K. Dionysopoulos. 
-License: GPLV3
-URL: http://www.dionysopoulos.me   
+* Author: Nicholas K. Dionysopoulos
+* Copyright: Copyright (C) 2009-2010 Nicholas K. Dionysopoulos.
+* License: GPLV3
+* URL: http://www.dionysopoulos.me   
 
 Limonade
 -------- 
 Limonade is an awesome Sinatra like mini php framework, which made view handling and routing a breeze.
 If you need a very small and lightwweight php framework be sure to check it out.
 
-Author: Fabrice Luraine
-Copyright: Copyright (c) 2009 Fabrice Luraine 
-License: http://opensource.org/licenses/mit-license.php The MIT License
-URL: http://github/sofadesign/limonade    
+* Author: Fabrice Luraine
+* Copyright: Copyright (c) 2009 Fabrice Luraine 
+* License: http://opensource.org/licenses/mit-license.php The MIT License
+* URL: http://github/sofadesign/limonade    
 
 CodeIgniter
 ----------- 
 Some of the helper functions were borrowed from or re-written from code found in codeigniter.
 
-Author: EllisLab
-Copyright: Copyright (C) 2008 - 2010, EllisLab 
-License: Other (GPL Compatible)
-URL: http://codeigniter.com/     
+* Author: EllisLab
+* Copyright: Copyright (C) 2008 - 2010, EllisLab 
+* License: Other (GPL Compatible)
+* URL: http://codeigniter.com/     
 
 Simple oAuth
 ------------
-Simple oAuth library used for the Forge API Auth.  
-Author: jr conlin  
-Copyright: unitedHeroes.net    
-License: Other (GPL Compatible)
-URL: http://unitedHeroes.net/OAuthSimple    
+Simple oAuth library used for the Forge API Auth.   
+
+* Author: jr conlin  
+* Copyright: unitedHeroes.net    
+* License: Other (GPL Compatible)
+* URL: http://unitedHeroes.net/OAuthSimple    
 
 REST Client
 -----------
 The REST client is a refactor of http://github.com/touv/rest_client. 
 
-Author: Nicolas Thouvenin & Stéphane Gully
-Copyright: Nicolas Thouvenin & Stéphane Gully
-License: GPLV2
-URL: http://github.com/touv/rest_client
+* Author: Nicolas Thouvenin & Stéphane Gully
+* Copyright: Nicolas Thouvenin & Stéphane Gully
+* License: GPLV2
+* URL: http://github.com/touv/rest_client
 
 # The Inspiring Ideas and People. 
 
