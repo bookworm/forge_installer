@@ -62,10 +62,10 @@ URL: http://unitedHeroes.net/OAuthSimple
 
 REST Client
 -----------
-The REST client is refactor of http://github.com/touv/rest_client. 
+The REST client is a refactor of http://github.com/touv/rest_client. 
 
-Author: Nicolas Thouvenin & Stéphane Gully 
-Copyright: Nicolas Thouvenin & Stéphane Gully 
+Author: Nicolas Thouvenin & Stéphane Gully
+Copyright: Nicolas Thouvenin & Stéphane Gully
 License: GPLV2
 URL: http://github.com/touv/rest_client
 
