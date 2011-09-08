@@ -10,9 +10,7 @@ require_once 'loader.php';
 require_once 'lib/limonade.php';
 
 // Set Error Reporting Level.
-error_reporting(E_ALL);     
-
-requireOnceDir('lib/forgeAPI');     
+error_reporting(E_ALL);       
      
 dispatch_post('/artifacts/get/:name', 'getArtifact');       
   function getArtifact()

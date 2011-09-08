@@ -17,7 +17,7 @@ defined( '_Forge' ) or die( 'Restricted access' );
  * please visit the DBD club site http://club.designbreakdown.com for support. 
  * Do not e-mail (or god forbid IM or call) me directly.
  */
-class Forge_Configuration
+class JConfiguration
 { 
   /**
    * Holds JConfig Class Vars. 

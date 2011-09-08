@@ -18,7 +18,7 @@ dispatch('/', 'check');
   {           
     $steps = new Steps();     
     $steps->step('/');  
-    $check = new Forge_Check();  
+    $check = new JCheck();  
     return html('check.html.php', null, array(
                   'failed' => $check->failed(),
                   'path' => SITE_URL, 
@@ -84,7 +84,7 @@ dispatch('/joomla-settings', 'jsettings');
     {
       // We will assume the configuration is valid by this point.
       // Save Joomla Settings To File    
-      $config = new Forge_Configuration();
+      $config = new JConfiguration();
       $config->saveConfig($_POST['config']);     
       @$_SESSION['adminUserDetails'] = $_POST['user'];
       redirect_to('/forgery');
@@ -126,7 +126,7 @@ dispatch('/joomla-settings', 'jsettings');
       $ftpConfig['ftpRootpath'] = $_POST['ftpRootpath'];
       $ftpConfig['ftpPort']     = $_POST['ftpPort'];   
       
-      $ftpverfiy = Forge_Check::FTPVerify($ftpConfig['ftpUser'], $ftpConfig['ftpPass'], $ftpConfig['ftpRootpath'], 
+      $ftpverfiy = JCheck::FTPVerify($ftpConfig['ftpUser'], $ftpConfig['ftpPass'], $ftpConfig['ftpRootpath'], 
                 $ftpConfig['ftpHost'], $ftpConfig['ftpPort']);       
                 
                 
@@ -146,16 +146,11 @@ dispatch('/joomla-settings', 'jsettings');
 dispatch('/forgery', 'forgery');       
   function forgery()
   { 
-    # include 'spawn_helpers.php';      
     $sessSerial = serialize($_SESSION);
     file_put_contents(TMP_PATH.DS.'session.txt', $sessSerial);    
     
-    # $forge = new Forge();     
-    
     $steps = new Steps();     
     $steps->setStep('/forgery');    
-    
-    requireOnceDir('lib/forgeAPI');  
     
     $forge = Forge::getInstance();
     
@@ -172,14 +167,6 @@ dispatch('/forgery', 'forgery');
                   'pageNum' =>   $pageNum
                )
     );
-    
-    # require_once 'spawn.php';
-
-    # forkIT(dirname(__FILE__), 'spawn.php');    
-    /*
-      For now I will just hit the Dig via Ajax and rely on the webservers process handling.
-      Shoulld be 'good enough'.
-    */
   } 
   
 run();
