@@ -3,7 +3,8 @@
 // Determine Site Path. This is the url path we will use it for adding css/js, links to pages etc.
 $path = $_SERVER['HTTP_HOST'] . $_SERVER['SCRIPT_NAME'];
 $path = str_replace('/' . basename(__FILE__), '', $path);   
-define('SITE_URL', $path);
+define('SITE_URL', $path);      
+define('JVERSION_SHORT', substr(JVERSION, 0, 3));
 
 // Load Stuff.          
 require_once 'loader.php';   
