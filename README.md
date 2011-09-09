@@ -17,7 +17,9 @@ That said, please make sure to check individual PHP files for licenses before us
 If I've misused a license or any authors feel that I've somehow violated their rights, just drop me an e-mail and I will do my
 best to make it right both legally and morally. bookworm.productions@gmail.com.
 
-Note: All The Code (in this project) Authored By Me Is Licensed Under GPlV2.
+# License   
+
+Licensed under [GPLV3](http://www.gnu.org/licenses/gpl-3.0.html)      
 
 # Code Credits    
      
