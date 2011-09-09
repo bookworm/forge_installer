@@ -34,7 +34,7 @@ if(!defined('JPATH_CACHE'))         define( 'JPATH_CACHE',			JPATH_BASE . DS . '
 if(!defined('JVERSION_SHORT'))      define('JVERSION_SHORT', substr(JVERSION, 0, 3));
 
 // Load the library importer.
-require_once (JPATH_LIBRARIES.'/joomla/import.php'); 
+require_once (JPATH_LIBRARIES.DS.'joomla' . DS .'import.php'); 
 require_once 'lib' . DS . 'helpers.php';
 
 // Joomla! Imports.
@@ -44,4 +44,5 @@ jimport('joomla.language.language');
 jimport('joomla.utilities.string');
 jimport('joomla.factory');       
 
-require_once 'lib/forge/forge.ph';
+require_once 'lib'  . DS . 'excavators' . DS . 'joomla_' . 'j' . JVERSION_SHORT . '.php';
+require_once 'lib' . DS .'forge' . DS . 'forge.php';
