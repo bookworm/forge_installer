@@ -29,7 +29,7 @@ Although messy at points Akeeba contains good examples of how to solve many of t
 Thanks allot Nicholas! 
 
 * Author: Nicholas K. Dionysopoulos
-* Copyright: Copyright (C) 2009-2010 Nicholas K. Dionysopoulos.
+* Copyright: Copyright (C) 2009-2011 Nicholas K. Dionysopoulos.
 * License: GPLV3
 * URL: http://www.dionysopoulos.me   
 
@@ -39,7 +39,7 @@ Limonade is an awesome Sinatra like mini php framework, which made view handling
 If you need a very small and lightwweight php framework be sure to check it out.
 
 * Author: Fabrice Luraine
-* Copyright: Copyright (c) 2009 Fabrice Luraine 
+* Copyright: Copyright (c) 2009-2011 Fabrice Luraine 
 * License: http://opensource.org/licenses/mit-license.php The MIT License
 * URL: http://github/sofadesign/limonade    
 
@@ -48,7 +48,7 @@ CodeIgniter
 Some of the helper functions were borrowed from or re-written from code found in codeigniter.
 
 * Author: EllisLab
-* Copyright: Copyright (C) 2008 - 2010, EllisLab 
+* Copyright: Copyright (C) 2008 - 2011, EllisLab 
 * License: Other (GPL Compatible)
 * URL: http://codeigniter.com/     
 
