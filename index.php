@@ -149,8 +149,8 @@ dispatch('/forgery', 'forgery');
     file_put_contents(TMP_PATH.DS.'session.txt', $sessSerial);    
     
     $steps = new Steps();     
-    $steps->setStep('/forgery');    
-    
+    $steps->setStep('/forgery');   
+   
     $forge = Forge::getInstance();
     
     $fapi = Forge_API::getInstance($_SESSION['forgeConfig']['pubKey'], $_SESSION['forgeConfig']['privateKey']);    
