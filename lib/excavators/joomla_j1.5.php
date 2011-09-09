@@ -13,7 +13,7 @@ defined( '_Forge' ) or die( 'Restricted access' );
  * @version     1.0 Beta
  * @author      Ken Erickson AKA Bookworm http://bookwormproductions.net
  * @copyright   Copyright 2009 - 2011 Design BreakDown, LLC.
- * @license     http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv3       
+ * @license     http://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3       
  */
 class Excavate_Joomla extends Excavate_Core
 {       
