@@ -10,7 +10,8 @@ define('JPATH_SITE', dirname(dirname(dirname(__FILE__))) );
 define('JPATH_INSTALLATION', dirname(__FILE__) );      
 
 // Path to forge
-define('FORGE_PATH', dirname(__FILE__) ); 
+define('FORGE_PATH', dirname(__FILE__) . DS .  'lib' . DS . 'forge' );   
+define('(FORGE_CONFIG_PATH', dirname(__FILE__) . DS .  'config'); 
 
 # JExec
 define('_JEXEC', 1);
@@ -34,7 +35,7 @@ if(!defined('JVERSION_SHORT'))      define('JVERSION_SHORT', substr(JVERSION, 0,
 
 // Load the library importer.
 require_once (JPATH_LIBRARIES.'/joomla/import.php'); 
-require_once 'lib/helpers.php';
+require_once 'lib' . DS . 'helpers.php';
 
 // Joomla! Imports.
 jimport('joomla.application.application');
