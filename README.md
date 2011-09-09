@@ -73,8 +73,8 @@ The REST client is a refactor of http://github.com/touv/rest_client.
 # The Inspiring Ideas and People. 
 
 A project is more than just the sum of its code + coders, the ideas, think time, and non dev contributors involved to produce
-that code extends far beyond the number of lines. Thought-lines and inspiring ideas span a wide spectrum of content management
-systems and communities. I'd like to thank some of those people, projects, and communities now.
+that code extends far beyond the number of lines. Thought-lines and inspiring ideas span a wide spectrum of content
+management systems and communities. I'd like to thank some of those people, projects, and communities now.
 
 1. First and the foremost my Joomla! clients who made me realize how much easier a jumpstart can make setting up a Joomla! site.
 
