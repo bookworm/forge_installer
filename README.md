@@ -31,7 +31,7 @@ Thanks allot Nicholas!
 * Author: Nicholas K. Dionysopoulos
 * Copyright: Copyright (C) 2009-2011 Nicholas K. Dionysopoulos.
 * License: GPLV3
-* URL: http://www.dionysopoulos.me   
+* URL: https://www.akeebabackup.com   
 
 Limonade
 -------- 
