@@ -14,8 +14,8 @@ Release 1.6 version.
 All code used in this project is open source under some OS license and all code is compatible with CPLv2. 
 That said, please make sure to check individual PHP files for licenses before using any code in your project.   
 
-If I've misused a license or any authors feel that I've somehow violated their rights, just drop me an e-mail and I will do my
-best to make it right both legally and morally. bookworm.productions@gmail.com.
+If I've misused a license or any authors feel that I've somehow violated their rights, just drop me an e-mail and I will do
+my best to make it right both legally and morally. bookworm.productions@gmail.com.
 
 # License   
 
@@ -24,7 +24,7 @@ Licensed under [GPLV3](http://www.gnu.org/licenses/gpl-3.0.html)
 # Code Credits    
      
 Akeeba
----------------   
+------  
 Some code both in parts and wholes has been taken from Akeeba. 
 Although messy at points Akeeba contains good examples of how to solve many of the problems I had to conquer for this installer.
 
